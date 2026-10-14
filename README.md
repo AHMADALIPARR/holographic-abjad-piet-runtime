@@ -14,7 +14,21 @@
 
 <div align="center">
 
-## ✨ Holographic Square — Primary
+## ✨ The Star — Animated Piet Hologram
+
+<p align="center">
+  <img src="images/piet_abjad_holographic_2d.gif" alt="Animated holographic Piet grid — colors pulse, crossfade, breathe" width="800">
+</p>
+
+*Looping Piet hologram. The grid breathes — colors pulse, the two renders crossfade, the hologram moves. The animation is the runtime walking the square.*
+
+</div>
+
+---
+
+<div align="center">
+
+## Holographic Square — Primary
 
 <p align="center">
   <img src="images/holographic-primary.png" alt="Primary holographic Piet square — 8x8 codels, center equilibrium" width="500">
@@ -76,7 +90,7 @@ Piet programs look like Mondrian paintings. Contiguous color blocks (codels) and
 
 ## How to Run the Piet Programs
 
-1. Download any image from `images/` (all are valid PNG Piet programs)
+1. Download any image from `images/` (all are valid PNG Piet programs, plus the animated GIF)
 2. Open in a Piet interpreter:
    - [npiet](https://www.bertnase.de/npiet/)
    - Online: https://gabriellesc.github.io/piet/
