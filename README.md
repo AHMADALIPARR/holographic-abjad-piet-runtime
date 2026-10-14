@@ -14,41 +14,37 @@
 
 <div align="center">
 
-## ✨ The Star — Esoteric Piet 2D Render
+## ✨ Holographic Square — Primary
 
 <p align="center">
-  <img src="images/piet_abjad_holographic_2d.gif" alt="Esoteric Piet 2D holographic Abjad square GIF" width="800">
+  <img src="images/holographic-primary.png" alt="Primary holographic Piet square — 8x8 codels, center equilibrium" width="500">
 </p>
 
-*Looping 2D Piet codel cycle. Pure geometric Mondrian blocks. The animation is the runtime walking the square.*
+*Primary holographic square — 8×8 Piet codels. Outer ring dark (Jalāl / contraction), inner ring light (Jamāl / expansion), center white equilibrium (53 / 106).*
 
-## Holographic Square Front-End
+## Secondary — Four Pillars
 
 <p align="center">
-  <img src="images/holographic-primary.jpg" alt="Primary holographic Piet square" width="700">
+  <img src="images/holographic-secondary.png" alt="Secondary Piet square — four pillars" width="400">
 </p>
 
-*Primary holographic magic square — central cube is the equilibrium (53 / 106). Color transitions encode Jamāl (light) ↔ Jalāl (dark).*
+*Secondary square — 6×6 Piet codels. Four corner pillars (dark red) framing the center. Red cycle: dark → normal → light.*
+
+## 4×4 Piet Grid
 
 <p align="center">
-  <img src="images/holographic-secondary.jpg" alt="Secondary floating cryptographic square" width="700">
+  <img src="images/piet_4x4_clean.png" alt="4x4 Piet codel grid" width="300">
 </p>
 
-*Secondary render with floating wireframe cubes representing the four pillars and 360° decoherence quadrants.*
+*Clean 4×4 Piet grid — all 18 canonical Piet colors across hue and lightness cycles.*
 
-<p align="center">
-  <img src="images/holographic-render-1.jpg" alt="Holographic render with central cube" width="650">
-</p>
-
-<p align="center">
-  <img src="images/holographic-render-2.jpg" alt="Grid cryptographic square" width="650">
-</p>
+## Minimal 3×3 Wafq Allāh
 
 <p align="center">
   <img src="images/wafq-3x3.png" alt="Minimal 3x3 Wafq Allāh Piet layout" width="300">
 </p>
 
-*Minimal 3×3 Wafq Allāh (constant sum 33) in canonical Piet palette. Generate more with `python generate_wafq_piet.py`.*
+*Minimal 3×3 Wafq Allāh (constant sum 33) in canonical Piet palette. Values [[8,1,24],[15,11,7],[10,21,2]] mapped to Piet colors. Generate more with `python generate_wafq_piet.py`.*
 
 </div>
 
@@ -80,7 +76,7 @@ Piet programs look like Mondrian paintings. Contiguous color blocks (codels) and
 
 ## How to Run the Piet Programs
 
-1. Download any image from `images/`
+1. Download any image from `images/` (all are valid PNG Piet programs)
 2. Open in a Piet interpreter:
    - [npiet](https://www.bertnase.de/npiet/)
    - Online: https://gabriellesc.github.io/piet/
