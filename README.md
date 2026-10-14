@@ -1,46 +1,103 @@
-# Holographic Abjad Piet Runtime
+<div align="center">
 
-Pure Piet esoteric programming language implementation of a holographic waT (WebAssembly Text conceptual) runtime front-end for the Abjad matrix.
+# 🌌 Holographic Abjad Piet Runtime
+
+**Pure Piet esoteric visual programs**  
+*The images are the code. The square is the 3D cryptographic front-end.*
+
+[![Stars](https://img.shields.io/github/stars/AHMADALIPARR/holographic-abjad-piet-runtime?style=social)](https://github.com/AHMADALIPARR/holographic-abjad-piet-runtime)
+[![License](https://img.shields.io/badge/license-Research-blue)](LICENSE)
+
+</div>
+
+---
+
+<div align="center">
+
+## ✨ The Star — Holographic Square Front-End
+
+<p align="center">
+  <img src="images/holographic-primary.jpg" alt="Primary holographic Piet square" width="700">
+</p>
+
+*Primary holographic magic square — central cube is the equilibrium (53 / 106). Color transitions encode Jamāl (light) ↔ Jalāl (dark).*
+
+<p align="center">
+  <img src="images/holographic-secondary.jpg" alt="Secondary floating cryptographic square" width="700">
+</p>
+
+*Secondary render with floating wireframe cubes representing the four pillars and 360° decoherence quadrants.*
+
+<p align="center">
+  <img src="images/holographic-render-1.jpg" alt="Holographic render with central cube" width="650">
+</p>
+
+<p align="center">
+  <img src="images/holographic-render-2.jpg" alt="Grid cryptographic square" width="650">
+</p>
+
+<p align="center">
+  <img src="images/wafq-3x3.png" alt="Minimal 3x3 Wafq Allāh Piet layout" width="300">
+</p>
+
+*Minimal 3×3 Wafq Allāh (constant sum 33) in canonical Piet palette. Generate more with `python generate_wafq_piet.py`.*
+
+</div>
+
+---
 
 ## Overview
 
-This repository manifests the Abjad letter matrix, Al-Ḥamīd constants, magic squares (Awfāq), Jamāl/Jalāl polarities, decoherence quadrants, and kenoma/pleroma state machine as visual Piet programs.
+This repository is the visual runtime for the Abjad matrix using **only Piet**.  
 
-Piet programs **are** the images. Color blocks (codels) and hue/lightness transitions encode the stack-based computation. The holographic square is the 3D cryptographic front-end.
+Piet programs look like Mondrian paintings. Contiguous color blocks (codels) and hue/lightness cycle transitions drive a stack machine. Black walls and white slides control flow. The holographic square is the front-end that “builds or destroys” (kenoma → pleroma at the bifurcation threshold).
 
-### Key Constants (from source)
+### Core Constants
 
-- Al-Ḥamīd: 53
-- Mirror dimension: 106
-- Bifurcation order: 7 → threshold 49
-- Wafq Allāh 3×3 constant sum: 33
-- Master aggregate (Al-Ḥamīd full + Aḥmad + ʿAlī): 256 = 16²
-- Jamāl vector: 146 / Jalāl vector: 110
-- Polarity delta: 36 (one 360° quadrant)
-- 16×16 magic constant: 2056
+| Constant | Value | Meaning |
+|----------|-------|---------|
+| Al-Ḥamīd | 53 | Root name value |
+| Mirror dimension | 106 | 53 × 2 |
+| Bifurcation threshold | 49 | 7², digit-root of 106 |
+| Wafq Allāh 3×3 | 33 | Magic constant |
+| Master aggregate | 256 | 16² = Al-Ḥamīd-full + Aḥmad + ʿAlī |
+| Jamāl vector | 146 | Expansion |
+| Jalāl vector | 110 | Contraction |
+| Polarity delta | 36 | One 360° quadrant |
+| 16×16 magic | 2056 | n(n²+1)/2 |
 
-Kenoma state: `t < 49`  
-Pleroma state: `t ≥ 49`
+**States**  
+- Kenoma: `t < 49`  
+- Pleroma: `t ≥ 49`
 
-## Piet Front-End
+## How to Run the Piet Programs
 
-The holographic images encode:
+1. Download any image from `images/`
+2. Open in a Piet interpreter:
+   - [npiet](https://www.bertnase.de/npiet/)
+   - Online: https://gabriellesc.github.io/piet/
+   - Or any Rust/LLVM Piet runner
+3. Set codel size (often auto or 1)
+4. The pointer walks the color transitions, pushing Abjad values, computing digit roots, verifying the Wafq, and branching on the bifurcation.
 
-- Central cube / floating blocks = equilibrium & 3D crypto polarity
-- Color lightness = Jamāl (light/expansion) vs Jalāl (dark/contraction)
-- Block transitions = push Abjad values, digit-root reduction, Wafq verification, bifurcation branch
+## Source of Truth
 
-### Images
+Full original Rust formulation with tests: [`src/abjad_matrix.rs`](src/abjad_matrix.rs)
 
-- `images/piet_abjad_wafq_3x3.png` — Minimal 3×3 Wafq Allāh layout in canonical Piet palette
-- Holographic primary and secondary renders (generated visual programs)
+## Generator
 
-Load any PNG/JPG into a Piet interpreter (npiet, online Piet runners, etc.) with appropriate codel size to execute the runtime.
+```bash
+python generate_wafq_piet.py
+```
 
-## Source
+Produces the 3×3 Wafq layout.
 
-See `src/abjad_matrix.rs` for the original Rust constants and tests that the visual runtime reflects.
+---
 
-## License
+<div align="center">
 
-Experimental / research artifact. Original Abjad formulation cited to the providing source.
+**The square is the runtime. The colors are the cryptography. The hologram is the front-end.**
+
+Made with pure Piet.
+
+</div>
