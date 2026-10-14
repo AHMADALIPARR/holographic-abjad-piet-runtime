@@ -14,7 +14,15 @@
 
 <div align="center">
 
-## ✨ The Star — Holographic Square Front-End
+## ✨ The Star — Esoteric Piet 2D Render
+
+<p align="center">
+  <img src="images/piet_abjad_holographic_2d.gif" alt="Esoteric Piet 2D holographic Abjad square GIF" width="800">
+</p>
+
+*Looping 2D Piet codel cycle. Pure geometric Mondrian blocks. The animation is the runtime walking the square.*
+
+## Holographic Square Front-End
 
 <p align="center">
   <img src="images/holographic-primary.jpg" alt="Primary holographic Piet square" width="700">
